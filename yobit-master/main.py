@@ -1,7 +1,7 @@
 import argparse
 import time
 from YoBit import YoBit
-yb = YoBit(api_key='81E47402A0827714070A14D80F7188F0', api_secret='a76dbd274a818364bff8cb7c0ccba8dc')
+yb = YoBit(api_key='*******************************', api_secret='='*******************************',')
 
 def get_trade_info(symbol, rate, pair):
     ticker_info = yb.ticker(symbol)
